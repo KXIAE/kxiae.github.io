@@ -1,3 +1,4 @@
-<h1>KXIAE // VOODOO</h1>
-
-<h2>the</h2>
+reference::
+html code is obviously in the index file;
+css code is in style.css;
+js goes in script; but it doesn-t work yet (update: it does)

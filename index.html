@@ -3,18 +3,41 @@
 <head>
     <title>K//V</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        document.getElementById("script").innerHTML = "script";
-    </script>
 </head>
 
 <body>
-    <title>KXIAE // VOODOO</title>
-    <h1 id="first title">the</h1>
+  
+    <title>the</title>
+    <h1 id="first title">KXIAE // VOODOO</h1>
     <h2 id="Description">here goes something (idk what)</h2>
-    <button id="ig">ig</button>
-  <button id="yt">yt</button>
-  <button id="arch">archive</button>
+    <h3 id="check out">check out my socials</h3>
+    <button id="igBtn">Instagram</button>
+    <button id="ytBtn">YouTube</button>
+    <button id="archBtn">Drive Archive</button>
 
+  <script> 
+
+//funciones individuales, abren el link adecuado
+  function openLink() {
+    console.log('link 1')
+    igBtn.onClick = window.open("https://instagram.com/runthatvoodoo", target = "_blank");
+    }
     
+    function openLink2() {
+      console.log('link 2')
+      igBtn.onClick = window.open("https://www.youtube.com/channel/UCA3A3Su6GTfDczQyXCy-_-w", target = "_blank");
+    }
+
+    function openLink3() {
+      console.log('link 3')
+      igBtn.onClick = window.open("https://drive.google.com/drive/folders/1u_l1-PRQCBD-PMcWTpBVOd34h6DZ8rXk?usp=sharing", target = "_blank");
+    }
+
+
+  document.getElementById("igBtn").addEventListener("click", openLink)
+  document.getElementById("ytBtn").addEventListener("click", openLink2)
+  document.getElementById("archBtn").addEventListener("click", openLink3)
+  
+  </script>
+
 </body>
