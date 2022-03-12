@@ -9,18 +9,20 @@
   
     <title>the</title>
     <h1 id="first title">KXIAE // VOODOO</h1>
-    <h2 id="Description">here goes something (idk what)</h2>
-    <h3 id="check out">check out my socials</h3>
-    <button id="igBtn">Instagram</button>
-    <button id="ytBtn">YouTube</button>
-    <button id="archBtn">Drive Archive</button>
+    <h2 id="Description">here goes the generic "Hi!"</h2>
+    <h3 id="checkout">until I learn how to make this look prettier, check out my socials</h3>
+    <div class="flex1">
+      <div class="instabtn"><button id="igBtn">Instagram</button></div>
+      <div class="youtubebtn"><button id="ytBtn">YouTube</button></div>
+      <div class="spotbtn"><button id="spoBtn">Spotify</button></div>
+    </div>
 
   <script> 
 
 //funciones individuales, abren el link adecuado
   function openLink() {
     console.log('link 1')
-    igBtn.onClick = window.open("https://instagram.com/runthatvoodoo", target = "_blank");
+    igBtn.onClick = window.open("https://instagram.com/eaixk", target = "_blank");
     }
     
     function openLink2() {
@@ -30,13 +32,13 @@
 
     function openLink3() {
       console.log('link 3')
-      igBtn.onClick = window.open("https://drive.google.com/drive/folders/1u_l1-PRQCBD-PMcWTpBVOd34h6DZ8rXk?usp=sharing", target = "_blank");
+      igBtn.onClick = window.open("https://open.spotify.com/user/wue4lk0w2cqfessxtffkz067o?si=5704bfc07e6743e1", target = "_blank");
     }
 
 
   document.getElementById("igBtn").addEventListener("click", openLink)
   document.getElementById("ytBtn").addEventListener("click", openLink2)
-  document.getElementById("archBtn").addEventListener("click", openLink3)
+  document.getElementById("spoBtn").addEventListener("click", openLink3)
   
   </script>
 
