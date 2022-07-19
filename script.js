@@ -15,3 +15,5 @@ insta.addEventListener('click', () => {
 })
 
 igBtn.onClick  = window.open("https://instagram.com/runthatvoodoo", target = "_blank");
+
+//this doesnt work by the way, just wanted to keep this here
